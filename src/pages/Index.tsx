@@ -58,12 +58,7 @@ export default function Index() {
             </button>
           ))}
         </nav>
-        <button
-          onClick={() => setMode('login')}
-          className="btn-neon-green font-orbitron text-xs px-5 py-2 rounded-sm tracking-widest uppercase"
-        >
-          Войти
-        </button>
+
       </header>
 
       {/* Hero */}
@@ -109,35 +104,7 @@ export default function Index() {
             Вступи в элитное сообщество лучших игроков. Только для избранных — только победители.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="animate-fade-up delay-800 flex flex-col sm:flex-row gap-4 items-center">
-            <button
-              onClick={() => setMode('register')}
-              className="btn-neon-solid font-orbitron text-sm px-10 py-4 rounded-sm tracking-widest uppercase"
-            >
-              Вступить в клан
-            </button>
-            <button
-              onClick={() => setMode('login')}
-              className="btn-neon-green font-orbitron text-sm px-10 py-4 rounded-sm tracking-widest uppercase"
-            >
-              Уже участник?
-            </button>
-          </div>
 
-          {/* Stats */}
-          <div className="animate-fade-up delay-800 grid grid-cols-3 gap-8 mt-16">
-            {[
-              { value: '1,337', label: 'Участников' },
-              { value: '#1', label: 'VIP Клан' },
-              { value: '24/7', label: 'Онлайн' },
-            ].map(({ value, label }) => (
-              <div key={label} className="text-center">
-                <div className="font-orbitron text-2xl md:text-3xl font-black neon-text-green">{value}</div>
-                <div className="font-exo text-xs text-white/40 tracking-widest uppercase mt-1">{label}</div>
-              </div>
-            ))}
-          </div>
         </main>
       )}
 
