@@ -69,13 +69,19 @@ export default function Index() {
       {/* Hero */}
       {mode === 'home' && (
         <main className="relative z-10 flex flex-col items-center justify-center min-h-[85vh] px-4 text-center">
-          {/* VIP Label */}
-          <div className="animate-fade-up delay-200 mb-6">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-sm border border-[var(--neon-gold)]/40 bg-black/50">
-              <span className="w-2 h-2 rounded-full bg-[var(--neon-gold)] animate-pulse" />
-              <span className="font-orbitron text-xs text-[var(--neon-gold)] tracking-[0.3em] uppercase">Exclusive VIP Access</span>
-              <span className="w-2 h-2 rounded-full bg-[var(--neon-gold)] animate-pulse" />
-            </div>
+          {/* VIP Big Title */}
+          <div className="animate-fade-up delay-200 mb-2">
+            <span
+              className="font-orbitron font-black leading-none block"
+              style={{
+                fontSize: 'clamp(4rem, 18vw, 14rem)',
+                color: 'var(--neon-gold)',
+                textShadow: '0 0 20px var(--neon-gold), 0 0 60px rgba(255,215,0,0.6), 0 0 120px rgba(255,215,0,0.3)',
+                letterSpacing: '0.1em',
+              }}
+            >
+              VIP
+            </span>
           </div>
 
           {/* Main Title */}
@@ -90,11 +96,6 @@ export default function Index() {
           >
             SURVIVORS
           </h1>
-
-          {/* Subtitle */}
-          <p className="animate-fade-up delay-400 font-russo text-lg md:text-2xl mt-4 mb-2 tracking-[0.2em] text-white/70 uppercase">
-            — VIP Gaming Community —
-          </p>
 
           {/* Divider */}
           <div className="animate-fade-up delay-600 flex items-center gap-4 my-8">
