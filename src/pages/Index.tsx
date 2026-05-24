@@ -1,6 +1,6 @@
-const BG = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/bf0419b8-752c-45d5-b7b1-f5def59d1a73.jpg';
-const CHAR_LI9 = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/d7f90ebd-e462-411a-a8e9-f02488d368ef.jpg';
-const CHAR_A1R = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/efcdef2f-1649-4869-b464-545e37f52b0a.jpg';
+const BG = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/06ddeb5b-060b-4b5c-afcd-5a8d9ff146d7.jpg';
+const CHAR_LI9 = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/11c090a7-0ad7-4b94-80b5-87496e105a3d.jpg';
+const CHAR_A1R = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/55030ba3-3faf-4e24-9ec3-ad0a60aa7d29.jpg';
 
 export default function Index() {
   return (
