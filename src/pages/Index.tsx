@@ -81,11 +81,11 @@ export default function Index() {
           {/* Main Title */}
           <h1 className="animate-title-reveal font-orbitron font-black leading-none tracking-widest select-none"
             style={{
-              fontSize: 'clamp(4rem, 15vw, 12rem)',
-              color: 'transparent',
-              WebkitTextStroke: '2px var(--neon-green)',
-              textShadow: '0 0 30px var(--neon-green), 0 0 80px rgba(0,255,136,0.3)',
-              letterSpacing: '0.15em',
+              fontSize: 'clamp(3rem, 10vw, 8rem)',
+              color: 'var(--neon-green)',
+              WebkitTextStroke: '1px var(--neon-green)',
+              textShadow: '0 0 20px var(--neon-green), 0 0 50px rgba(0,255,136,0.5), 0 0 100px rgba(0,255,136,0.2)',
+              letterSpacing: '0.2em',
             }}
           >
             SURVIVORS
