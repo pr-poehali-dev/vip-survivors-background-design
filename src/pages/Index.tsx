@@ -1,4 +1,4 @@
-const BG = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/9d3f0996-8620-4661-9dea-be69ec4f6385.jpg';
+const BG = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/d86f7315-17bc-450a-b9c8-e8c3e7b2595a.jpg';
 const CHAR_LI9 = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/6c498680-7ab5-404a-a37a-699cd8cc7f2e.jpg';
 const CHAR_A1R = 'https://cdn.poehali.dev/projects/05ec720a-0e80-4880-81c8-abc332bb5ce1/files/cb0e3a37-502c-4e12-85f9-3dbc692ed4de.jpg';
 
@@ -32,7 +32,7 @@ export default function Index() {
             src={CHAR_LI9}
             alt="LI9"
             className="w-full max-w-[260px] md:max-w-[320px] object-contain"
-            style={{ filter: 'drop-shadow(0 0 24px rgba(255,106,0,0.5))' }}
+            style={{ filter: 'drop-shadow(0 0 24px rgba(255,106,0,0.6)) contrast(1.15) brightness(1.05)', mixBlendMode: 'screen' }}
           />
         </div>
 
@@ -88,7 +88,7 @@ export default function Index() {
             src={CHAR_A1R}
             alt="A1r"
             className="w-full max-w-[260px] md:max-w-[320px] object-contain"
-            style={{ filter: 'drop-shadow(0 0 24px rgba(0,207,255,0.5))' }}
+            style={{ filter: 'drop-shadow(0 0 24px rgba(0,207,255,0.6)) contrast(1.15) brightness(1.05)', mixBlendMode: 'screen' }}
           />
         </div>
       </div>
